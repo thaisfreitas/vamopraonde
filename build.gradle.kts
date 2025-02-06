@@ -36,6 +36,9 @@ dependencies {
 	implementation("org.hibernate:hibernate-core:6.2.0.Final")
 	implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
 	testImplementation("com.h2database:h2")
+	testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
+	testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
+	testImplementation("org.mockito:mockito-core:4.0.0")
 }
 
 kotlin {
