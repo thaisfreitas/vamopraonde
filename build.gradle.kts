@@ -30,10 +30,12 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-	implementation("javax.persistence:javax.persistence-api:2.2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.restdocs:spring-restdocs-mockmvc")
 	implementation("javax.persistence:javax.persistence-api:2.2")
+	implementation("org.hibernate:hibernate-core:6.2.0.Final")
+	implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
+	testImplementation("com.h2database:h2")
 }
 
 kotlin {
